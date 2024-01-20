@@ -63,9 +63,9 @@ const Home = () => {
           const typed = new Typed(el.current, {
             strings: ["Frontend Developer", "Backend Developer", "I ❤️ Coding"],
             startDelay: 200,
-            typeSpeed: 60,
-            backSpeed: 10,
-            backDelay: 100,
+            typeSpeed: 40,
+            backSpeed: 25,
+            backDelay: 70,
             loop: true,
           });
           return () => {
