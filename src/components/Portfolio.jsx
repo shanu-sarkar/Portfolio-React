@@ -8,48 +8,50 @@ import todo from '../assets/portfolio/todo.png'
 
 const Portfolio = () => {
 
-    const portfolio = [
-      {
-        id: 1,
-        src: amazon,
-        demo: "",
-        code: "https://github.com/shanu-sarkar/Amazon-Cloning",
-      },
-      {
-        id: 2,
-        src: calclutor,
-        code: "https://github.com/shanu-sarkar/React-JS/tree/main/Calculator",
-      },
-      {
-        id: 3,
-        src: laptop,
-        code: "https://github.com/shanu-sarkar/Laptop-website-Tech.in",
-      },
-      {
-        id: 4,
-        src: myntra,
-        code: "https://github.com/shanu-sarkar/React-JS/tree/main/Myntra-Clone-React/Myntra-clone",
-      },
-      {
-        id: 5,
-        src: netflix,
-        code: "https://github.com/shanu-sarkar/Netflix-cloning",
-      },
-      {
-        id: 6,
-        src: todo,
-        code: "https://github.com/shanu-sarkar/chai-aur-React/tree/main/toDoContext",
-      },
-    ];
+  const portfolio = [
+    {
+      id: 1,
+      src: amazon,
+      demo: "",
+      code: "https://github.com/shanu-sarkar/Amazon-Cloning",
+    },
+    {
+      id: 2,
+      src: calclutor,
+      code: "https://github.com/shanu-sarkar/React-JS/tree/main/Calculator",
+    },
+    {
+      id: 3,
+      src: laptop,
+      code: "https://github.com/shanu-sarkar/Laptop-website-Tech.in",
+    },
+    {
+      id: 4,
+      src: myntra,
+      code: "https://github.com/shanu-sarkar/React-JS/tree/main/Myntra-Clone-React/Myntra-clone",
+    },
+    {
+      id: 5,
+      src: netflix,
+      code: "https://github.com/shanu-sarkar/Netflix-cloning",
+    },
+    {
+      id: 6,
+      src: todo,
+      code: "https://github.com/shanu-sarkar/chai-aur-React/tree/main/toDoContext",
+    },
+  ];
 
- const handleClick = []
- 
+  const handleClick = []
+
   return (
     <div
       name="My Projects"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white pt-32 md:pt-12"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+
+
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Projects
@@ -76,9 +78,12 @@ const Portfolio = () => {
                   <a href={code} target='_blank'> Code</a>
                 </button>
               </div>
+
             </div>
           ))}
         </div>
+
+
       </div>
     </div>
   );
