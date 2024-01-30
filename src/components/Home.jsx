@@ -81,13 +81,13 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h3 className="text-4xl md:text-6xl font-bold text-white w-full ">
-            Hi, I am
+            Hi, I'm
           </h3>
-          <h1 className="text-5xl font-bold text-white">
+          <h1 className="text-5xl font-bold text-red-600">
             Shanu Sarkar
           </h1>
           <h2 className="text-3xl text-white">
-            I'm <span className="font-bold " ref={el}></span>
+            I'm <span className="font-bold text-white" ref={el}></span>
           </h2>
           <p className="text-gray-300 py-4 max-w-md">
             Web Developer with expertise of React.js, Redux, Cloud Firestore,
