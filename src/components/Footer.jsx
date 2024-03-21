@@ -27,7 +27,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="py-3 bg-gray-900 text-white">
-      <div className="flex justify-center gap-8 mt-1 mb-5 lg:text-3xl  text-2xl text-red-200">
+      <div className="flex justify-center gap-8 mt-1 mb-5 lg:text-3xl  text-2xl text-red-200 lg:hidden ">
         <a
           href="https://www.linkedin.com/feed/"
           target="_blank"
@@ -73,7 +73,7 @@ const Footer = () => {
       </div>
 
       <div>
-        <p className="text-center text-xl md:text-2xl  md:font-bold">
+        <p className="text-center text-xl md:text-2xl md:font-bold">
           Made with ❤️ by Shanu Sarkar ©️ 2024
         </p>
         <div></div>
