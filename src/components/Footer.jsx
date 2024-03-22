@@ -1,21 +1,3 @@
-// import React from 'react'
-
-// const Footer = () => {
-//   return (
-//     <footer
-//       className=" bg-gray-700 text-white
-//     "
-//     >
-//       <div className="container">
-//         <p className="flex justify-center text-center text-2xl ">Made with ❤️ by Shanu Sarkar ©️ 2024</p>
-//       </div>
-      
-//     </footer>
-//   );
-// }
-
-// export default Footer
-
 import React from 'react'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -27,7 +9,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="py-3 bg-gray-900 text-white">
-      <div className="flex justify-center gap-8 mt-1 mb-5 lg:text-3xl  text-2xl text-red-200 lg:hidden ">
+      <div className="flex justify-center gap-8 mt-1 mb-5 lg:text-3xl  text-2xl  text-red-200 lg:hidden ">
         <a
           href="https://www.linkedin.com/feed/"
           target="_blank"
@@ -82,4 +64,6 @@ const Footer = () => {
   );
 }
 
-export default Footer
+export default Footer;
+
+

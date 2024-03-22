@@ -41,7 +41,7 @@ const SocailLinks = () => {
             Resume <BsFillPersonLinesFill size={30} />
           </>
         ),
-        herf: "/sdfdrsf.pdf",
+        herf: "/My-Resume.pdf",
         download: true,
         style: "rounded-br-md",
       },
