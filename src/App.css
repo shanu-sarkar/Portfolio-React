@@ -10,3 +10,27 @@
     background-color: rgba(15, 15, 15, 0.67);
 }
 
+
+
+/* .all1{
+    color: #fff;
+    position: relative;
+
+}
+
+
+.all1::after{
+    content: '';
+    width: 0; 
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: width 0.5s;
+}
+
+.all1:hover::after{
+    width: 85%;
+} */
+

@@ -62,9 +62,9 @@ const Home = () => {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: ["Frontend Developer", "Backend Developer", "I ❤️ Coding"],
-      startDelay: 200,
+      startDelay: 150,
       typeSpeed: 40,
-      backSpeed: 25,
+      backSpeed: 30,
       backDelay: 70,
       loop: true,
     });
